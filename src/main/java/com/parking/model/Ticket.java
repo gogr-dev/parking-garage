@@ -93,5 +93,6 @@ public class Ticket {
     public String toString() {
         return String.format("Ticket #%d: %s at %s (level %d) entered %s",
                 ticketId, vehicle, spot.getSpotId(), levelNumber, entryTime);
+        
     }
 }
